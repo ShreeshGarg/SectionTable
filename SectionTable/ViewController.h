@@ -8,13 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
+@property (strong, nonatomic) IBOutlet UITableView   *tbl;
+@property (strong, nonatomic) NSMutableDictionary    *tblDictionary;
+@property (strong, nonatomic) NSMutableArray         *keyArray;
 
-
-@property (retain, nonatomic) IBOutlet UITableView *tbl;
-@property (nonatomic,retain) NSMutableDictionary *tblDictionary;
-@property (nonatomic,retain)NSMutableArray *keyArray;
-@property (nonatomic,retain)NSMutableArray *tableArray;
-@property (nonatomic,retain)NSMutableArray *filteredArray;
 @end

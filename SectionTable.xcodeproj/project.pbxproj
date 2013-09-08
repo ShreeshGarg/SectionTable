@@ -11,10 +11,9 @@
 		1BD39C9E17DCC048005DE0EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD39C9117DCC048005DE0EE /* Default-568h@2x.png */; };
 		1BD39C9F17DCC048005DE0EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD39C9217DCC048005DE0EE /* Default.png */; };
 		1BD39CA017DCC048005DE0EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD39C9317DCC048005DE0EE /* Default@2x.png */; };
-		1BD39CA217DCC048005DE0EE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD39C9617DCC048005DE0EE /* ViewController.xib */; };
 		1BD39CA317DCC048005DE0EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD39C9817DCC048005DE0EE /* main.m */; };
-		1BD39CA417DCC048005DE0EE /* SectionTable-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BD39C9917DCC048005DE0EE /* SectionTable-Info.plist */; };
-		1BD39CA517DCC048005DE0EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD39C9C17DCC048005DE0EE /* ViewController.m */; };
+		79CBFA4B889FA0A52A5DD3B5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CBF0C459A6156E68FFFA20 /* ViewController.xib */; };
+		79CBFA8E23884781A0E8E950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CBF72C650B432AE9DA7DA2 /* ViewController.m */; };
 		8BE829F9165F43D30063F02A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE829F8165F43D30063F02A /* UIKit.framework */; };
 		8BE829FB165F43D30063F02A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE829FA165F43D30063F02A /* Foundation.framework */; };
 		8BE829FD165F43D30063F02A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE829FC165F43D30063F02A /* CoreGraphics.framework */; };
@@ -26,12 +25,12 @@
 		1BD39C9117DCC048005DE0EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1BD39C9217DCC048005DE0EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1BD39C9317DCC048005DE0EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1BD39C9717DCC048005DE0EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		1BD39C9817DCC048005DE0EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BD39C9917DCC048005DE0EE /* SectionTable-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SectionTable-Info.plist"; sourceTree = "<group>"; };
 		1BD39C9A17DCC048005DE0EE /* SectionTable-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SectionTable-Prefix.pch"; sourceTree = "<group>"; };
-		1BD39C9B17DCC048005DE0EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1BD39C9C17DCC048005DE0EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79CBF72C650B432AE9DA7DA2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79CBF7DFA52FFFC5C1496561 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		79CBF82E7BB74685D9FF5FAA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BE829F4165F43D30063F02A /* SectionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE829F8165F43D30063F02A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BE829FA165F43D30063F02A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,14 +59,22 @@
 				1BD39C9117DCC048005DE0EE /* Default-568h@2x.png */,
 				1BD39C9217DCC048005DE0EE /* Default.png */,
 				1BD39C9317DCC048005DE0EE /* Default@2x.png */,
-				1BD39C9617DCC048005DE0EE /* ViewController.xib */,
 				1BD39C9817DCC048005DE0EE /* main.m */,
 				1BD39C9917DCC048005DE0EE /* SectionTable-Info.plist */,
 				1BD39C9A17DCC048005DE0EE /* SectionTable-Prefix.pch */,
-				1BD39C9B17DCC048005DE0EE /* ViewController.h */,
-				1BD39C9C17DCC048005DE0EE /* ViewController.m */,
+				79CBFCDE41B7EEA08684C5F8 /* Classes */,
 			);
 			path = SectionTable;
+			sourceTree = "<group>";
+		};
+		79CBFCDE41B7EEA08684C5F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79CBF72C650B432AE9DA7DA2 /* ViewController.m */,
+				79CBF82E7BB74685D9FF5FAA /* ViewController.h */,
+				79CBF0C459A6156E68FFFA20 /* ViewController.xib */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		8BE829E9165F43D30063F02A = {
@@ -123,7 +130,7 @@
 		8BE829EB165F43D30063F02A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Developer;
 			};
 			buildConfigurationList = 8BE829EE165F43D30063F02A /* Build configuration list for PBXProject "SectionTable" */;
@@ -151,8 +158,7 @@
 				1BD39C9E17DCC048005DE0EE /* Default-568h@2x.png in Resources */,
 				1BD39C9F17DCC048005DE0EE /* Default.png in Resources */,
 				1BD39CA017DCC048005DE0EE /* Default@2x.png in Resources */,
-				1BD39CA217DCC048005DE0EE /* ViewController.xib in Resources */,
-				1BD39CA417DCC048005DE0EE /* SectionTable-Info.plist in Resources */,
+				79CBFA4B889FA0A52A5DD3B5 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,17 +171,17 @@
 			files = (
 				1BD39C9D17DCC048005DE0EE /* AppDelegate.m in Sources */,
 				1BD39CA317DCC048005DE0EE /* main.m in Sources */,
-				1BD39CA517DCC048005DE0EE /* ViewController.m in Sources */,
+				79CBFA8E23884781A0E8E950 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BD39C9617DCC048005DE0EE /* ViewController.xib */ = {
+		79CBF0C459A6156E68FFFA20 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BD39C9717DCC048005DE0EE /* en */,
+				79CBF7DFA52FFFC5C1496561 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 		8BE82A19165F43D30063F02A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SectionTable/SectionTable-Prefix.pch";
 				INFOPLIST_FILE = "SectionTable/SectionTable-Info.plist";
@@ -245,6 +252,7 @@
 		8BE82A1A165F43D30063F02A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SectionTable/SectionTable-Prefix.pch";
 				INFOPLIST_FILE = "SectionTable/SectionTable-Info.plist";
